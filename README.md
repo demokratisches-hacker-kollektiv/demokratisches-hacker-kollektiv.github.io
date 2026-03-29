@@ -2,6 +2,13 @@
 
 Personal homepage built with React, Vite, and Tailwind CSS, deployed on GitHub Pages.
 
+**Team:**
+- Thomas D. (Anführer)
+- Jennifer K. (Frau Kuchen)
+- Fabian S. (Herr Kuchen)
+- Jayden S. (Gruppen-Clown)
+- Julius F.-W. (Zirkusaffe)
+
 ## Live Site
 
 🌐 [https://demokratisches-hacker-kollektiv.github.io](https://demokratisches-hacker-kollektiv.github.io)
