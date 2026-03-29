@@ -9,7 +9,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, '.'),
     },
   },
-  base: '/demokratisches-hacker-kollektiv.github.io/',
+  base: '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
