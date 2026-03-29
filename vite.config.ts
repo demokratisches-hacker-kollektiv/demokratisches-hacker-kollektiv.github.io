@@ -14,7 +14,7 @@ export default defineConfig(({mode}) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
-    base: '/demokratisches-hacker-kollektiv.github.io/',
+    base: '/',
     build: {
       outDir: 'dist',
       assetsDir: 'assets',
