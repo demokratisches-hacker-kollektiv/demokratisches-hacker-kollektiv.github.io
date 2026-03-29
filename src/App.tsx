@@ -14,7 +14,7 @@ import Datenschutz from "./pages/Datenschutz";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/demokratisches-hacker-kollektiv.github.io">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
