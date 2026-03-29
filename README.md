@@ -1,20 +1,61 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Demokratisches Hacker Kollektiv - Personal Homepage
 
-# Run and deploy your AI Studio app
+Personal homepage built with React, Vite, and Tailwind CSS, deployed on GitHub Pages.
 
-This contains everything you need to run your app locally.
+## Live Site
 
-View your app in AI Studio: https://ai.studio/apps/5b0b4edf-fd0c-471b-80f8-c8ad18869e1a
+🌐 [https://demokratisches-hacker-kollektiv.github.io](https://demokratisches-hacker-kollektiv.github.io)
 
-## Run Locally
+## Development
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js
 
+### Local Development
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### Build & Deploy
+
+1. Build for production:
+   ```bash
+   npm run build
+   ```
+
+2. Preview the build:
+   ```bash
+   npm run preview
+   ```
+
+## Technology Stack
+
+- **React 19** - UI framework
+- **Vite** - Build tool and development server
+- **Tailwind CSS** - Styling
+- **TypeScript** - Type safety
+- **GitHub Pages** - Hosting
+
+## Project Structure
+
+```
+├── src/
+│   ├── components/    # React components
+│   ├── pages/         # Page components
+│   ├── lib/           # Utilities and helpers
+│   └── main.tsx       # App entry point
+├── .github/workflows/ # GitHub Actions for deployment
+└── dist/              # Build output
+```
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages when changes are pushed to the `main` branch. The deployment workflow is defined in `.github/workflows/deploy.yml`.

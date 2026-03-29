@@ -1,8 +1,10 @@
 {
-  "name": "react-example",
+  "name": "demokratisches-hacker-kollektiv.github.io",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Personal homepage for Demokratisches Hacker Kollektiv",
+  "homepage": "https://demokratisches-hacker-kollektiv.github.io",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
