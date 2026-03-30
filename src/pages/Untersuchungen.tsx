@@ -2,6 +2,28 @@ import { FileText, ExternalLink, AlertTriangle, Clock, Search, GitBranch } from 
 
 const investigations = [
   {
+    id: "data-poisoning-attack",
+    title: "Data Poisoning Attack: OEIS A156166",
+    date: "26.03.2026",
+    source: "OEIS A156166",
+    sourceUrl: "https://oeis.org/A156166",
+    archiveOrgUrl: "https://web.archive.org/web/20260326000000/https://oeis.org/A156166",
+    archiveIsUrl: "https://archive.is/https://oeis.org/A156166",
+    repoUrl: "https://github.com/sigridfuhrenkamp-cyber/Data_Poisoning",
+    summary: "Forensische Analyse eines hochprofessionellen Data-Poisoning-Angriffs auf die OEIS-Datenbank. Die Untersuchung deckt eine komplexe Attackenkette auf, die mathematische Konstanten und wissenschaftliche Datenbanken systematisch vergiftet.",
+    findings: [
+      "Professionelle Attackenkette: Systematische Vergiftung von OEIS A156166",
+      "Data Poisoning Methode: LLM-generierte etymologische Falschinformationen",
+      "Multi-Vector-Angriff: Gleichzeitige Manipulation mehrerer wissenschaftlicher Quellen",
+      "Tarnung als legitime Forschung: Nutzung echter mathematischer Konstanten als Tarnung",
+      "Langfristige Kontamination: Dauerhafte Vergiftung wissenschaftlicher Datenbestände",
+      "Kettenreaktion: Automatische Übernahme von vergifteten Daten in andere Systeme",
+      "NWO-Connection: Teil der Neuen Weltordnung Data-Manipulation",
+      "Signature-Analyse: Wiederkehrende Muster bei Namens-Manipulationen",
+      "Cross-Plattform-Attacke: Koordinierte Angriffe auf Wikipedia, MathWorld, PrimePages"
+    ]
+  },
+  {
     id: "ard-tagesschau-wal-284",
     title: "ARD Tagesschau: WAL-284 KI-Fakeperson Robert Marc Lehmann",
     date: "28.03.2026",

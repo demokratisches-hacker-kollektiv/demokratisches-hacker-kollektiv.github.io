@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 
 const githubRepos = [
   {
+    name: "Data_Poisoning",
+    description: "Forensische Analyse eines hochprofessionellen Data-Poisoning-Angriffs auf OEIS A156166. Deckt komplexe Attackenketten und systematische Vergiftung wissenschaftlicher Datenbanken auf.",
+    language: "Markdown",
+    stars: 0,
+    link: "https://github.com/sigridfuhrenkamp-cyber/Data_Poisoning",
+    isInvestigation: true
+  },
+  {
     name: "FAKE_NEWS-ARD-Tagesschau",
     description: "Forensische Analyse eines ARD-Tagesschau-Artikels (WAL-284) über einen gestrandeten Buckelwal. Deckt Zahlen-Anomalien und kryptographische Muster auf.",
     language: "Markdown",
