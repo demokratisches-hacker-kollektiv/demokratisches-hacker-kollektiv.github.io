@@ -33,34 +33,6 @@ const githubRepos = [
     stars: 0,
     link: "https://github.com/entwicklerkatze/Sterbehilfe_in_Spanien-Fake-News",
     isInvestigation: true
-  },
-  {
-    name: "imra-deepfake-detector",
-    description: "Open-Source Modell zur Erkennung von KI-generierten Gesichtern in Videos und Bildern.",
-    language: "Python",
-    stars: 1240,
-    link: "https://github.com/imra-institut/deepfake-detector"
-  },
-  {
-    name: "disinfo-network-graph",
-    description: "Tools zur Visualisierung und Analyse von Bot-Netzwerken auf X (Twitter) und Telegram.",
-    language: "TypeScript",
-    stars: 856,
-    link: "https://github.com/imra-institut/disinfo-network-graph"
-  },
-  {
-    name: "llm-hallucination-benchmark",
-    description: "Datensatz und Evaluierungsskripte für Faktenüberprüfung in großen Sprachmodellen.",
-    language: "Jupyter Notebook",
-    stars: 532,
-    link: "https://github.com/imra-institut/llm-hallucination-benchmark"
-  },
-  {
-    name: "osint-scraper-toolkit",
-    description: "Sammlung von Skripten zum sicheren und anonymen Sammeln von öffentlich zugänglichen Daten.",
-    language: "Python",
-    stars: 2105,
-    link: "https://github.com/imra-institut/osint-scraper-toolkit"
   }
 ];
 
@@ -114,7 +86,7 @@ export default function Repository() {
                 </p>
                 <div className="flex items-center gap-4 text-xs font-medium text-slate-500">
                   <span className="flex items-center gap-1">
-                    <span className={`w-2 h-2 rounded-full ${repo.language === 'Python' ? 'bg-blue-500' : repo.language === 'TypeScript' ? 'bg-blue-400' : repo.language === 'Markdown' ? 'bg-amber-500' : 'bg-orange-400'}`}></span>
+                    <span className={`w-2 h-2 rounded-full ${repo.language === 'Markdown' ? 'bg-amber-500' : 'bg-slate-400'}`}></span>
                     {repo.language}
                   </span>
                   {!repo.isInvestigation && (
