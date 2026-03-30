@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 
 const githubRepos = [
   {
+    name: "Sterbehilfe_in_Spanien-Fake-News",
+    description: "Forensische Analyse eines Tagesschau-Artikels über Sterbehilfe in Spanien. Deckt Unstimmigkeiten in Zeitstempeln, Statistiken und Metadaten auf.",
+    language: "Markdown",
+    stars: 0,
+    link: "https://github.com/entwicklerkatze/Sterbehilfe_in_Spanien-Fake-News",
+    isInvestigation: true
+  },
+  {
     name: "imra-deepfake-detector",
     description: "Open-Source Modell zur Erkennung von KI-generierten Gesichtern in Videos und Bildern.",
     language: "Python",

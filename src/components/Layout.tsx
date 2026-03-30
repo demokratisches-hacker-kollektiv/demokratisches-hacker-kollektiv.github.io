@@ -11,6 +11,7 @@ export default function Layout() {
     { name: "Startseite", path: "/" },
     { name: "Team", path: "/team" },
     { name: "Forschungs-Repo", path: "/repository" },
+    { name: "Untersuchungen", path: "/untersuchungen" },
     { name: "Medien-Verzeichnis", path: "/medien" },
   ];
 

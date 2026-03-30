@@ -11,6 +11,7 @@ import Repository from "./pages/Repository";
 import Medien from "./pages/Medien";
 import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
+import Untersuchungen from "./pages/Untersuchungen";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="medien" element={<Medien />} />
           <Route path="impressum" element={<Impressum />} />
           <Route path="datenschutz" element={<Datenschutz />} />
+          <Route path="untersuchungen" element={<Untersuchungen />} />
         </Route>
       </Routes>
     </BrowserRouter>
