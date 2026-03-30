@@ -46,6 +46,7 @@ const investigations = [
     archiveIsUrl: "https://archive.is/https://www.welt.de/politik/deutschland/article249806634/Pro-Palästina-Demos-Berlin-über-12-000-Straftaten-bei-189-Nationalitäten.html",
     repoUrl: "https://github.com/entwicklerkatze/12000_Straftaten_bei_189_Nationalitaeten",
     summary: "Forensische Analyse eines WELT-Artikels über Straftaten bei Pro-Palästina-Demonstrationen. Die Untersuchung deckt ein kohärentes kryptographisches Zahlenrätsel-System auf, das statistisch unmöglich als Zufall entstanden sein kann.",
+    warning: "Der ursprüngliche WELT-Artikel ist nicht mehr auf der WELT-Website verfügbar. Wir vermuten, dass WELT Angst bekommen hat, dass ihre Fakeshow auffliegt, weil wir Druck gemacht haben.",
     findings: [
       "189-Trinität: Alle Hauptzahlen (12.000, 189, 3) sind mathematisch verknüpft",
       "12.000-12.493 Dualität: Statistisch unmögliche Zahlenkombinationen",
@@ -131,6 +132,21 @@ export default function Untersuchungen() {
                     {investigation.summary}
                   </p>
                 </div>
+
+                {/* Warning Box */}
+                {investigation.warning && (
+                  <div className="mb-8 p-4 bg-red-50 border border-red-200 rounded-lg">
+                    <div className="flex items-start gap-3">
+                      <AlertTriangle className="h-5 w-5 text-red-600 mt-0.5 flex-shrink-0" />
+                      <div>
+                        <h4 className="font-bold text-red-900 mb-2">Wichtiger Hinweis</h4>
+                        <p className="text-red-800 text-sm leading-relaxed">
+                          {investigation.warning}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                )}
 
                 {/* Key Findings */}
                 <div className="mb-8">
