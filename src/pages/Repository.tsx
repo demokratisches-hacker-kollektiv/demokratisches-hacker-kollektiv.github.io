@@ -1,4 +1,4 @@
-import { Github, ExternalLink, Code, Database } from "lucide-react";
+import { Github, ExternalLink, Code, Database, AlertTriangle } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const githubRepos = [
@@ -66,12 +66,22 @@ export default function Repository() {
                 href={repo.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white border border-slate-200 rounded-xl p-6 hover:border-blue-400 hover:shadow-md transition-all group block"
+                className={`bg-white border rounded-xl p-6 hover:shadow-md transition-all group block ${
+                  repo.isInvestigation ? "border-amber-300 hover:border-amber-400" : "border-slate-200 hover:border-blue-400"
+                }`}
               >
                 <div className="flex justify-between items-start mb-4">
-                  <div className="flex items-center gap-2 text-blue-600 font-semibold text-lg group-hover:text-blue-700">
-                    <Github className="h-5 w-5" />
-                    {repo.name}
+                  <div className="flex items-center gap-2">
+                    {repo.isInvestigation && (
+                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-amber-100 text-amber-700 text-xs font-medium">
+                        <AlertTriangle className="h-3 w-3" />
+                        Untersuchung
+                      </span>
+                    )}
+                    <div className={`font-semibold text-lg group-hover:text-blue-700 ${repo.isInvestigation ? 'text-amber-700' : 'text-blue-600'}`}>
+                      <Github className="h-5 w-5 inline mr-1" />
+                      {repo.name}
+                    </div>
                   </div>
                   <ExternalLink className="h-4 w-4 text-slate-400 group-hover:text-blue-500" />
                 </div>
@@ -80,13 +90,20 @@ export default function Repository() {
                 </p>
                 <div className="flex items-center gap-4 text-xs font-medium text-slate-500">
                   <span className="flex items-center gap-1">
-                    <span className={`w-2 h-2 rounded-full ${repo.language === 'Python' ? 'bg-blue-500' : repo.language === 'TypeScript' ? 'bg-blue-400' : 'bg-orange-400'}`}></span>
+                    <span className={`w-2 h-2 rounded-full ${repo.language === 'Python' ? 'bg-blue-500' : repo.language === 'TypeScript' ? 'bg-blue-400' : repo.language === 'Markdown' ? 'bg-amber-500' : 'bg-orange-400'}`}></span>
                     {repo.language}
                   </span>
-                  <span className="flex items-center gap-1">
-                    <svg className="h-4 w-4 text-slate-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-                    {repo.stars.toLocaleString()}
-                  </span>
+                  {!repo.isInvestigation && (
+                    <span className="flex items-center gap-1">
+                      <svg className="h-4 w-4 text-slate-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                      {repo.stars.toLocaleString()}
+                    </span>
+                  )}
+                  {repo.isInvestigation && (
+                    <Link to="/untersuchungen" className="text-amber-600 hover:text-amber-700 hover:underline">
+                      Zur Untersuchung →
+                    </Link>
+                  )}
                 </div>
               </a>
             ))}
