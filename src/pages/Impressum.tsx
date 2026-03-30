@@ -7,27 +7,19 @@ export default function Impressum() {
         <div className="space-y-8 text-slate-700 leading-relaxed">
           <section>
             <h2 className="text-xl font-semibold text-slate-900 mb-4">Angaben gemäß § 5 TMG</h2>
-            <p className="font-bold">Institut für Medienrecherche und -analyse (IMRA) e.V.</p>
+            <p className="font-bold">Toni Cubano</p>
             <p>
-              Musterstraße 123<br />
-              10115 Berlin<br />
+              Berliner Ring 23<br />
+              31226 Peine<br />
               Deutschland
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-slate-900 mb-4">Vertreten durch den Vorstand</h2>
-            <p>
-              Dr. Elena Rostova (Vorsitzende)<br />
-              Marcus Weber, M.Sc. (Stellv. Vorsitzender)
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-slate-900 mb-4">Kontakt</h2>
             <p>
-              Telefon: +49 (0) 30 123456-78<br />
-              Telefax: +49 (0) 30 123456-79<br />
+              Telefon: +49 (0) 5172 666-333<br />
+              Telefax: +49 (0) 5172 666-999<br />
               E-Mail: kontakt@imra-institut.de<br />
               Web: www.imra-institut.de
             </p>
@@ -37,8 +29,8 @@ export default function Impressum() {
             <h2 className="text-xl font-semibold text-slate-900 mb-4">Registereintrag</h2>
             <p>
               Eintragung im Vereinsregister.<br />
-              Registergericht: Amtsgericht Charlottenburg (Berlin)<br />
-              Registernummer: VR 12345 B
+              Registergericht: Amtsgericht Peine<br />
+              Registernummer: VR 66693 B
             </p>
           </section>
 
@@ -46,16 +38,16 @@ export default function Impressum() {
             <h2 className="text-xl font-semibold text-slate-900 mb-4">Umsatzsteuer-ID</h2>
             <p>
               Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-              DE 123456789
+              DE 366.666.933
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-slate-900 mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
             <p>
-              Dr. Elena Rostova<br />
-              Musterstraße 123<br />
-              10115 Berlin
+              Toni Cubano<br />
+              Berliner Ring 23<br />
+              31226 Peine
             </p>
           </section>
 
