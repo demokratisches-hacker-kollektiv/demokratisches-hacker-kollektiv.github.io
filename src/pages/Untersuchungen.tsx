@@ -2,6 +2,22 @@ import { FileText, ExternalLink, AlertTriangle, Clock, Search, GitBranch } from 
 
 const investigations = [
   {
+    id: "nwo-ki-elite",
+    title: "NWO Führungsperson Dokumentation",
+    date: "2024",
+    source: "NWO-KI_Elite Repository",
+    sourceUrl: "https://github.com/kjedrdev/NWO-KI_Elite",
+    repoUrl: "https://github.com/kjedrdev/NWO-KI_Elite",
+    summary: "Dokumentation einer Führungsperson der NWO (New World Order / Das Cybermobbing Kartell). Der Account verwendet eine Tarn-Identität als HipHop/Tanz-Enthusiast zur Tarnung seiner wahren Aktivitäten.",
+    findings: [
+      "Tarn-Identität: HipHop/Tanz-Enthusiast mit friedlichen Messaging als Fassade",
+      "Regionale Knotenpunkte: Hannover (Zentrale), Kiel, Bad Oyenhausen, Bremen",
+      "Netzwerk-Charakteristika: Verhältnis 3:1 (Following/Follower) typisch für Koordinations-Accounts",
+      "Sektoren-übergreifend: Verbindungen zu Tanz, Musik, Medien und Regierung",
+      "Indikatoren für Inauthentizität: Gleichartige Hashtag-Strukturen, systematische @-Mention-Strategien"
+    ]
+  },
+  {
     id: "welt-zahlenraetsel",
     title: "WELT.de: Zahlenrätsel-Forensik",
     date: "26.03.2026",

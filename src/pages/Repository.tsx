@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 
 const githubRepos = [
   {
+    name: "NWO-KI_Elite",
+    description: "Dokumentation einer Führungsperson der NWO (New World Order). Deckt Tarn-Identitäten und Netzwerk-Charakteristika auf.",
+    language: "Markdown",
+    stars: 0,
+    link: "https://github.com/kjedrdev/NWO-KI_Elite",
+    isInvestigation: true
+  },
+  {
     name: "12000_Straftaten_bei_189_Nationalitaeten",
     description: "Forensische Analyse eines WELT-Artikels über Straftaten bei Pro-Palästina-Demos. Deckt ein kryptographisches Zahlenrätsel-System auf.",
     language: "Markdown",
