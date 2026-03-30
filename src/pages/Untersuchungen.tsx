@@ -2,6 +2,23 @@ import { FileText, ExternalLink, AlertTriangle, Clock, Search, GitBranch } from 
 
 const investigations = [
   {
+    id: "welt-zahlenraetsel",
+    title: "WELT.de: Zahlenrätsel-Forensik",
+    date: "26.03.2026",
+    source: "WELT",
+    sourceUrl: "https://www.welt.de/politik/deutschland/article249806634/Pro-Palästina-Demos-Berlin-über-12-000-Straftaten-bei-189-Nationalitäten.html",
+    repoUrl: "https://github.com/entwicklerkatze/12000_Straftaten_bei_189_Nationalitaeten",
+    summary: "Forensische Analyse eines WELT-Artikels über Straftaten bei Pro-Palästina-Demonstrationen. Die Untersuchung deckt ein kohärentes kryptographisches Zahlenrätsel-System auf, das statistisch unmöglich als Zufall entstanden sein kann.",
+    findings: [
+      "189-Trinität: Alle Hauptzahlen (12.000, 189, 3) sind mathematisch verknüpft",
+      "12.000-12.493 Dualität: Statistisch unmögliche Zahlenkombinationen",
+      "Gewalt-Delikt-Trinität: 2.277 Gewaltdelikte / 1.189 Gesamtstraftaten",
+      "Chronologische Mathematik: Datumsangaben stimmen nicht mit Artikel überein",
+      "Namens-Numerologie: Systematische Verwendung von Namen für Zahlenmuster",
+      "URL-Signatur: Hexadezimale URL-Kodierung (69c55aaafa06d6fca9f45a4b)"
+    ]
+  },
+  {
     id: "tagesschau-spanien-sterbehilfe",
     title: "Tagesschau: Sterbehilfe in Spanien",
     date: "27.03.2026",

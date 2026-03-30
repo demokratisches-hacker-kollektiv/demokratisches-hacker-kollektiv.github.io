@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 
 const githubRepos = [
   {
+    name: "12000_Straftaten_bei_189_Nationalitaeten",
+    description: "Forensische Analyse eines WELT-Artikels über Straftaten bei Pro-Palästina-Demos. Deckt ein kryptographisches Zahlenrätsel-System auf.",
+    language: "Markdown",
+    stars: 0,
+    link: "https://github.com/entwicklerkatze/12000_Straftaten_bei_189_Nationalitaeten",
+    isInvestigation: true
+  },
+  {
     name: "Sterbehilfe_in_Spanien-Fake-News",
     description: "Forensische Analyse eines Tagesschau-Artikels über Sterbehilfe in Spanien. Deckt Unstimmigkeiten in Zeitstempeln, Statistiken und Metadaten auf.",
     language: "Markdown",
