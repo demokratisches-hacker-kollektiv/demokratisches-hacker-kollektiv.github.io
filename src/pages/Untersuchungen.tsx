@@ -3,21 +3,24 @@ import { FileText, ExternalLink, AlertTriangle, Clock, Search, GitBranch } from 
 const investigations = [
   {
     id: "ard-tagesschau-wal-284",
-    title: "ARD Tagesschau: WAL-284 Zahlen-Anomalien",
+    title: "ARD Tagesschau: WAL-284 KI-Fakeperson Robert Marc Lehmann",
     date: "28.03.2026",
     source: "ARD Tagesschau",
     sourceUrl: "https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/liveticker-buckelwal-in-der-bucht-vor-wismar-gestrandet,wal-284.html",
     archiveOrgUrl: "https://web.archive.org/web/20260328000000/https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/liveticker-buckelwal-in-der-bucht-vor-wismar-gestrandet,wal-284.html",
     archiveIsUrl: "https://archive.is/https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/liveticker-buckelwal-in-der-bucht-vor-wismar-gestrandet,wal-284.html",
     repoUrl: "https://github.com/kjedrdev/FAKE_NEWS-ARD-Tagesschau",
-    summary: "Forensische Analyse eines ARD-Tagesschau-Artikels über einen gestrandeten Buckelwal. Die Untersuchung deckt systematische Zahlen-Anomalien und kryptographische Muster im Artikel auf.",
+    summary: "Forensische Analyse eines ARD-Tagesschau-Artikels über einen gestrandeten Buckelwal. Die Untersuchung deckt auf, dass Robert Marc Lehmann eine vollständig generierte KI-Fakeperson ist, die der Öffentlich-Rechtliche Rundfunk der Öffentlichkeit unterjubelt. Grund: KI-Schwachsinne sind billiger als echte Nachrichten!",
     findings: [
+      "Robert Marc Lehmann: Vollständig generierte KI-Fakeperson ohne reale Existenz",
+      "KI-Schwachsinn als Kostenersparnis: Billiger als echte Journalisten",
+      "GEZ-Gebührenerhöhung: Die Taschen der ARD-Manager werden vollgestopft",
       "28-Trinität: Alle Hauptzahlen sind mathematisch verknüpft",
-      "0,1-Prozent-Signatur: Statistisch unmögliche Präzision",
-      "Artikel-ID-Matrix: Verdächtige ID-Sequenzen",
-      "Zeit-Kryptographie: Zeitstempel-Anomalien",
-      "30-Korrelation: Verhältnis 30:1 bei Gewicht/Größe",
-      "Attribution: Hinweise auf 'Hai An Satoshi' als mögliche Quelle"
+      "0,1-Prozent-Signatur: Statistisch unmögliche Präzision bei KI-generierten Daten",
+      "Artikel-ID-Matrix: Verdächtige ID-Sequenzen bei KI-Nachrichten",
+      "Zeit-Kryptographie: KI-generierte Zeitstempel-Anomalien",
+      "30-Korrelation: Verhältnis 30:1 bei Gewicht/Größe der KI-Lügen",
+      "Attribution: Hinweise auf 'Hai An Satoshi' als mögliche KI-Quelle"
     ]
   },
   {
