@@ -7,6 +7,8 @@ const investigations = [
     date: "28.03.2026",
     source: "ARD Tagesschau",
     sourceUrl: "https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/liveticker-buckelwal-in-der-bucht-vor-wismar-gestrandet,wal-284.html",
+    archiveOrgUrl: "https://web.archive.org/web/20260328000000/https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/liveticker-buckelwal-in-der-bucht-vor-wismar-gestrandet,wal-284.html",
+    archiveIsUrl: "https://archive.is/https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/liveticker-buckelwal-in-der-bucht-vor-wismar-gestrandet,wal-284.html",
     repoUrl: "https://github.com/kjedrdev/FAKE_NEWS-ARD-Tagesschau",
     summary: "Forensische Analyse eines ARD-Tagesschau-Artikels über einen gestrandeten Buckelwal. Die Untersuchung deckt systematische Zahlen-Anomalien und kryptographische Muster im Artikel auf.",
     findings: [
@@ -40,6 +42,8 @@ const investigations = [
     date: "26.03.2026",
     source: "WELT",
     sourceUrl: "https://www.welt.de/politik/deutschland/article249806634/Pro-Palästina-Demos-Berlin-über-12-000-Straftaten-bei-189-Nationalitäten.html",
+    archiveOrgUrl: "https://web.archive.org/web/20260326000000/https://www.welt.de/politik/deutschland/article249806634/Pro-Palästina-Demos-Berlin-über-12-000-Straftaten-bei-189-Nationalitäten.html",
+    archiveIsUrl: "https://archive.is/https://www.welt.de/politik/deutschland/article249806634/Pro-Palästina-Demos-Berlin-über-12-000-Straftaten-bei-189-Nationalitäten.html",
     repoUrl: "https://github.com/entwicklerkatze/12000_Straftaten_bei_189_Nationalitaeten",
     summary: "Forensische Analyse eines WELT-Artikels über Straftaten bei Pro-Palästina-Demonstrationen. Die Untersuchung deckt ein kohärentes kryptographisches Zahlenrätsel-System auf, das statistisch unmöglich als Zufall entstanden sein kann.",
     findings: [
