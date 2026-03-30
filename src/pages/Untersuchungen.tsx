@@ -58,14 +58,14 @@ const investigations = [
     source: "ARD Tagesschau",
     sourceUrl: "https://www.tagesschau.de/ausland/europa/spanien-sterbehilfe-106.html",
     repoUrl: "https://github.com/entwicklerkatze/Sterbehilfe_in_Spanien-Fake-News",
-    summary: "Forensische Analyse eines Tagesschau-Artikels über Sterbehilfe in Spanien. Die Untersuchung deckt mehrere Unstimmigkeiten in Zeitstempeln, statistischen Angaben und Artikel-Metadaten auf.",
+    summary: "Forensische Analyse eines Tagesschau-Artikels über Sterbehilfe in Spanien. Die 25-jährige Noelia Castillo wurde 2022 von Minderjährigen vergewaltigt, versuchte daraufhin Suizid und saß seither querschnittsgelähmt im Rollstuhl. Der Artikel enthält mehrere textliche und strukturelle Anomalien.",
     findings: [
-      "Zeitstempel-Inkonsistenzen: Audio-Datei 1 Stunde 40 Minuten vor Artikel-Publikationsdatum",
-      "Drei identische End-Sekunden (:18) in unabhängigen Timestamps",
-      "Zeitliche Lücke: 2 Jahre zwischen Antragsbewilligung und Durchführung ohne Erklärung",
-      "Ungewöhnliche EGMR-Verfahrensdauer von 20 Monaten",
-      "Lücken in der Artikel-ID-Sequenz (102 und 104 fehlen)",
-      "Statistisch ungewöhnlich präzise Zahl: exakt 1.123 Menschen"
+      "Opfer-Biografie: Noelia Castillo wurde 2022 von einer Gruppe Minderjähriger vergewaltigt, versuchte daraufhin Suizid und lebte seitdem querschnittsgelähmt im Rollstuhl",
+      "Zeitliche Lücke: Antrag auf Sterbehilfe wurde 2024 bewilligt, Durchführung erst 2026 - 2 Jahre ohne im Artikel erklärte Verzögerung",
+      "Vater-Reaktion: Der Vater zog gegen die Bewilligung vor Gericht, vertreten durch die ultrakatholische Organisation 'Abogados Cristianos'",
+      "Politische Einordnung: Konservative Volkspartei und ultrarechte Vox-Partei sprachen sich gegen das Gesetz aus - Vox bezeichnete den Tod als 'Hinrichtung einer 25-Jährigen'",
+      "Letzte Minuten: Laut spanischen Medien verbrachte Castillo ihre letzten Minuten allein in ihrem Zimmer auf eigenen Wunsch",
+      "Anwalt-Aussage: José Maria Fernandez kritisierte, dass Castillo 'schon lange wegen psychischer Probleme behandelt werden und eine höhere Pflegestufe erhalten sollen'"
     ]
   }
 ];
