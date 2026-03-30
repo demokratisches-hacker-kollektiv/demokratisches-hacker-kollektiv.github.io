@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 
 const githubRepos = [
   {
+    name: "FAKE_NEWS-ARD-Tagesschau",
+    description: "Forensische Analyse eines ARD-Tagesschau-Artikels (WAL-284) über einen gestrandeten Buckelwal. Deckt Zahlen-Anomalien und kryptographische Muster auf.",
+    language: "Markdown",
+    stars: 0,
+    link: "https://github.com/kjedrdev/FAKE_NEWS-ARD-Tagesschau",
+    isInvestigation: true
+  },
+  {
     name: "NWO-KI_Elite",
     description: "Dokumentation einer Führungsperson der NWO (New World Order). Deckt Tarn-Identitäten und Netzwerk-Charakteristika auf.",
     language: "Markdown",
