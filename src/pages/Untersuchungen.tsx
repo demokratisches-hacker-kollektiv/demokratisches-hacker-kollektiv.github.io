@@ -61,6 +61,8 @@ const investigations = [
     date: "27.03.2026",
     source: "ARD Tagesschau",
     sourceUrl: "https://www.tagesschau.de/ausland/europa/spanien-sterbehilfe-106.html",
+    archiveOrgUrl: "https://web.archive.org/web/20260327000000/https://www.tagesschau.de/ausland/europa/spanien-sterbehilfe-106.html",
+    archiveIsUrl: "https://archive.is/https://www.tagesschau.de/ausland/europa/spanien-sterbehilfe-106.html",
     repoUrl: "https://github.com/entwicklerkatze/Sterbehilfe_in_Spanien-Fake-News",
     summary: "Forensische Analyse eines Tagesschau-Artikels über Sterbehilfe in Spanien. Die 25-jährige Noelia Castillo wurde 2022 von Minderjährigen vergewaltigt, versuchte daraufhin Suizid und saß seither querschnittsgelähmt im Rollstuhl. Der Artikel enthält mehrere textliche und strukturelle Anomalien.",
     findings: [
@@ -159,6 +161,28 @@ export default function Untersuchungen() {
                     <ExternalLink className="h-4 w-4" />
                     Original-Artikel
                   </a>
+                  {investigation.archiveOrgUrl && (
+                    <a 
+                      href={investigation.archiveOrgUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-lg font-medium transition-colors"
+                    >
+                      <Clock className="h-4 w-4" />
+                      Archive.org
+                    </a>
+                  )}
+                  {investigation.archiveIsUrl && (
+                    <a 
+                      href={investigation.archiveIsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-5 py-2.5 bg-purple-100 hover:bg-purple-200 text-purple-700 rounded-lg font-medium transition-colors"
+                    >
+                      <GitBranch className="h-4 w-4" />
+                      Archive.is
+                    </a>
+                  )}
                   <a 
                     href={investigation.repoUrl}
                     target="_blank"
