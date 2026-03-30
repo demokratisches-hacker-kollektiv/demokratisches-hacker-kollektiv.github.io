@@ -2,32 +2,39 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 const teamMembers = [
   {
-    name: "Dr. Elena Rostova",
-    role: "Direktorin & Leitende Forscherin",
-    bio: "Promovierte Kommunikationswissenschaftlerin mit Fokus auf algorithmische Manipulation und Informationskriege. Zuvor tätig in der OSINT-Analyse für internationale NGOs.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
-    socials: { twitter: "#", linkedin: "#", github: "#" }
+    name: "Thomas D.",
+    role: "Anführer",
+    bio: "Leitende Kraft des Instituts mit strategischer Expertise in der Aufdeckung von Desinformationskampagnen und medienforensischer Analyse.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
+    socials: { github: "#", linkedin: "#" }
   },
   {
-    name: "Marcus Weber, M.Sc.",
-    role: "Leiter KI-Forensik",
-    bio: "Spezialist für Machine Learning und Computer Vision. Entwickelt unsere proprietären Detektionsmodelle zur Erkennung von Deepfakes und synthetischen Texten.",
-    image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=800&auto=format&fit=crop",
-    socials: { twitter: "#", linkedin: "#", github: "#" }
-  },
-  {
-    name: "Sarah Lindner",
-    role: "Investigativjournalistin",
-    bio: "Ausgezeichnete Journalistin mit Schwerpunkt auf digitale Netzwerke, Finanzierungsstrukturen von Desinformationskampagnen und extremistische Radikalisierung.",
+    name: "Jennifer K.",
+    role: "Frau Kuchen",
+    bio: "Spezialistin für digitale Netzwerkanalyse und Identifizierung von Koordinationsmustern in Social-Media-Kampagnen.",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop",
     socials: { twitter: "#", mail: "#" }
   },
   {
-    name: "David Chen",
-    role: "Datenanalyst & OSINT-Spezialist",
-    bio: "Experte für Netzwerkanalyse und Data Mining. Visualisiert komplexe Verbreitungswege von Fake-News über verschiedene Social-Media-Plattformen hinweg.",
+    name: "Fabian S.",
+    role: "Herr Kuchen",
+    bio: "Experte für kryptographische Mustererkennung und numerische Forensik bei verdächtigen Medienberichten.",
+    image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=800&auto=format&fit=crop",
+    socials: { github: "#", linkedin: "#" }
+  },
+  {
+    name: "Jayden S.",
+    role: "Scriptkiddie",
+    bio: "Technischer Analyst für automatisierte Datenerfassung und Entwicklung von OSINT-Tools zur Echtzeitüberwachung.",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
+    socials: { github: "#", twitter: "#" }
+  },
+  {
+    name: "Julius F.-W.",
+    role: "Provokateur",
+    bio: "Investigativer Analyst mit Fokus auf die Aufdeckung politischer Manipulationen und extremistischer Narrative.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
-    socials: { linkedin: "#", github: "#" }
+    socials: { twitter: "#", linkedin: "#" }
   }
 ];
 
